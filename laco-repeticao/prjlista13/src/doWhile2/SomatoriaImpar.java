@@ -10,7 +10,7 @@ public class SomatoriaImpar {
 			somatoria += i;
 			i += 2;
 		} while (i < 1000);
-		System.out.println("A somatória dos números ímapares é igual a: " + somatoria);
+		System.out.println("A somatória dos números ímpares é igual a: " + somatoria);
 
 	}
 
