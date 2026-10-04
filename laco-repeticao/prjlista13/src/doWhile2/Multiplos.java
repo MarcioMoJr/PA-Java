@@ -9,7 +9,7 @@ public class Multiplos {
 		do {
 			System.out.print(i);
 			if (i % 10 == 0) {
-				System.out.print(" é multiplo de 10");
+				System.out.print(" é múltiplo de 10");
 			}
 			System.out.println();
 			i += 2;

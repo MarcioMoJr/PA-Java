@@ -21,10 +21,10 @@ public class IdadeDoWhile {
 			System.out.println("A idade é: " + idade + " anos");
 
 			if (idade < 18) {
-				System.out.println("O usuario é menor de idade");
+				System.out.println("O usuário é menor de idade");
 
 			} else {
-				System.out.println("O usuario é maior de idade");
+				System.out.println("O usuário é maior de idade");
 			}
 			System.out.println("\n Deseja continuar? S-Sim / N-Não");
 			resposta = in.next();

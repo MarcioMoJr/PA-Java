@@ -11,7 +11,7 @@ public class Somatoria {
 			somatoria = somatoria + i;
 			i++;
 		}
-		System.out.println("A somatória dos numeros inteiros é igual a: " + somatoria);
+		System.out.println("A somatoria dos numeros inteiros Ã© igual a: " + somatoria);
 
 	}
 
