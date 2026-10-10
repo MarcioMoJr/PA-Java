@@ -1,4 +1,4 @@
-package prjlista11;
+package lacoWhile2;
 
 import java.util.*;
 

@@ -1,4 +1,4 @@
-package listaLacosRepeticao;
+package lacoWhile;
 
 public class Somatoria {
 
