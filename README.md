@@ -11,7 +11,7 @@ Cada lista de exercícios é um projeto do Eclipse (`prjlistaNN`), numerado na o
 | [`introducao-java`](introducao-java) | 01 a 03 | Variáveis, entrada com `Scanner`, operadores e cálculos |
 | [`tomada-decisao`](tomada-decisao) | 04 a 08 | `if`, `if/else` e decisões compostas |
 | [`switch-case`](switch-case) | 09 | `switch/case` |
-| [`laco-repeticao`](laco-repeticao) | 10 a 13 | `while` e `do..while` |
+| [`laco-repeticao`](laco-repeticao) | 10 a 14 | `while`, `do..while` e `for` |
 
 ## Listas
 
@@ -47,3 +47,6 @@ Cada lista de exercícios é um projeto do Eclipse (`prjlistaNN`), numerado na o
 | `prjlista11` | `while` | Altura, faixa etária, fatorial, Fibonacci, potência |
 | `prjlista12` | `do..while` | Fatorial, Fibonacci e potência refeitos com `do..while` |
 | `prjlista13` | `do..while` | Somatória dos ímpares de 1 a 1000, pares de 0 a 500 com múltiplos de 10, idade com repetição por S/N |
+| `prjlista14` (nível 1) | `for` | Contagem de 1 a 10, de 10 a 1, de 0 a 20 e de 20 a 0 |
+| `prjlista14` (nível 2) | `for` | Pares de 0 a 100, ímpares de 1 a 99, múltiplos de 5 entre 0 e 100, números de 1 a 50 maiores que 25 |
+| `prjlista14` (nível 3) | `for` | Soma de 1 a 100, soma dos pares de 1 a 100, tabuada de um número informado pelo usuário, fatorial de 10 (1 × 2 × 3 × ... × 10) |
