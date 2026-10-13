@@ -4,10 +4,9 @@ public class Ex010 {
 
 	public static void main(String[] args) {
 
-		int i;
-		int s = 0;
+		int i, s;
 
-		for (i = 2; i <= 100; i += 2) {
+		for (i = 2, s = 0; i <= 100; i += 2) {
 			s += i;
 		}
 		System.out.println(s);
