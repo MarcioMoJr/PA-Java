@@ -2,14 +2,13 @@ package vetores;
 
 import java.util.Scanner;
 
-public class Ex002 {
+public class VetorInvertido {
 
 	public static void main(String[] args) {
-
 		Scanner in = new Scanner(System.in);
-
+		
 		final int TAM = 10;
-		int a[] = new int[TAM], b[] = new int[TAM], c[] = new int[TAM], i;
+		int a[] = new int[TAM], b[] = new int[TAM], i;
 
 		for (i = 0; i < TAM; i++) {
 			System.out.println("Digite o " + (i + 1) + "° valor do vetor A");
@@ -17,16 +16,20 @@ public class Ex002 {
 		}
 
 		for (i = 0; i < TAM; i++) {
-			System.out.println("Digite o " + (i + 1) + "° valor do vetor B");
-			b[i] = in.nextInt();
-
-			c[i] = a[i] + b[i];
+			b[i] = a[TAM - 1 - i];
 		}
 
+		System.out.println("A =");
 		for (i = 0; i < TAM; i++) {
-			System.out.print(c[i] + " ");
+			System.out.print(a[i] + " ");
 		}
 
-	}
 
+		System.out.println("\nB =");
+		for (i = 0; i < TAM; i++) {
+			System.out.print(b[i] + " ");
+		}
+		
+	}
+	
 }
