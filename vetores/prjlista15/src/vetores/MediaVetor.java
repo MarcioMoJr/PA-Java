@@ -8,7 +8,8 @@ public class MediaVetor {
 		Scanner in = new Scanner(System.in);
 
 		final int TAM = 10;
-		int a[] = new int[TAM], soma = 0, media, i;
+		int a[] = new int[TAM],  i;
+		double soma = 0, media;
 
 		for (i = 0; i < TAM; i++) {
 			System.out.println("Digite o " + (i + 1) + "° valor do vetor A");

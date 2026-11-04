@@ -7,7 +7,7 @@ public class BuscaElemento {
 	public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);
 
-		final int TAM = 3;
+		final int TAM = 10;
 		int i, x, achou, a[] = new int[TAM];
 		String resposta;
 

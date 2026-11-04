@@ -7,7 +7,7 @@ public class InterseccaoVetores {
 	public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);
 
-		final int TAM = 5;
+		final int TAM = 10;
 		int i, j, qnt = 0, a[] = new int[TAM], b[] = new int[TAM], c[] = new int[TAM];
 
 		for (i = 0; i < TAM; i++) {
@@ -27,6 +27,8 @@ public class InterseccaoVetores {
 				if (a[i] == b[j]) {
 					c[qnt] = a[i];
 					qnt++;
+					break;
+					
 				}
 			}
 		}

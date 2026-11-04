@@ -7,7 +7,7 @@ public class ParesAteElemento {
 	public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);
 
-		final int TAM = 2;
+		final int TAM = 10;
 		int i, a[] = new int[TAM], seq;
 
 		for (i = 0; i < TAM; i++) {
