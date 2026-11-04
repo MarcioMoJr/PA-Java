@@ -12,6 +12,7 @@ Cada lista de exercícios é um projeto do Eclipse (`prjlistaNN`), numerado na o
 | [`tomada-decisao`](tomada-decisao) | 04 a 08 | `if`, `if/else` e decisões compostas |
 | [`switch-case`](switch-case) | 09 | `switch/case` |
 | [`laco-repeticao`](laco-repeticao) | 10 a 14 | `while`, `do..while` e `for` |
+| [`vetores`](vetores) | 15 e 16 | Vetores: leitura, busca, conjuntos e cálculos com `for` |
 
 ## Listas
 
@@ -50,3 +51,30 @@ Cada lista de exercícios é um projeto do Eclipse (`prjlistaNN`), numerado na o
 | `prjlista14` (nível 1) | `for` | Contagem de 1 a 10, de 10 a 1, de 0 a 20 e de 20 a 0 |
 | `prjlista14` (nível 2) | `for` | Pares de 0 a 100, ímpares de 1 a 99, múltiplos de 5 entre 0 e 100, números de 1 a 50 maiores que 25 |
 | `prjlista14` (nível 3) | `for` | Soma de 1 a 100, soma dos pares de 1 a 100, tabuada de um número informado pelo usuário, fatorial de 10 (1 × 2 × 3 × ... × 10) |
+
+### Vetores
+
+| Lista | O que tem |
+|---|---|
+| `prjlista15` | `QuadradoVetor` (quadrado de cada elemento), `SomaVetores` (soma posição por posição), `VetorInvertido` (A de trás para frente), `MediaVetor` (média dos valores) |
+| `prjlista16` | Lista complementar, descrita abaixo |
+
+#### `prjlista16`: lista complementar "Treinando para trabalhar com vetores"
+
+| Classe | O que faz |
+|---|---|
+| `SepararParesImpares` | Separa os pares e ímpares de A em um vetor B (pares primeiro) |
+| `TabuadaVetor` | Tabuada de cada elemento de A |
+| `VerificaPrimos` | Diz se cada elemento de A é primo |
+| `ParesAteElemento` | Pares de 0 até cada elemento de A |
+| `DivisoresElemento` | Divisores de cada elemento de A |
+| `PotenciasDeDois` | Preenche A com A[i] = 2^i |
+| `FatorialVetor` | B recebe o fatorial de cada elemento de A |
+| `SomatorioAcumulado` | B[i] = soma de A[j], de i até o final |
+| `InterseccaoVetores` | C = elementos que existem em A e em B |
+| `DiferencaVetores` | C = elementos de A que não existem em B |
+| `BuscaElemento` | Busca um valor X em A, com repetição por S/N |
+| `FilaMerenda` | Registra senhas da fila da merenda, barrando senhas repetidas |
+| `VetorPalindromo` | Verifica se A é um palíndromo |
+| `ParOuImpar` | B recebe 1 (A[i] par) ou 0 (A[i] ímpar) |
+| `ComparaVetores` | C recebe 1, 0 ou -1 ao comparar A[i] com B[i] |
